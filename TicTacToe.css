@@ -1,0 +1,39 @@
+
+body {
+   background-color: black; 
+}
+
+.title {
+    color: yellow;
+    text-align: center;
+   
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 20px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+.bgwhite{
+    background-color: white;
+}
